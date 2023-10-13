@@ -1,10 +1,14 @@
+import Boutique from './Components/Boutique';
+import './Styles/App.css';
+import React from 'react';
 
-import './App.css';
 
-function App() {
+
+const App = () => {
   return (
     <div className="App">
-      <p>Hello World</p>
+        <h1>Shop Teandence</h1>
+        <Boutique />
     </div>
   );
 }
