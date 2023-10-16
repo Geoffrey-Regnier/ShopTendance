@@ -1,34 +1,32 @@
 .shop {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  background-color: lightgreen;
-  padding: 5vh;
-  margin: 5vh;
-  border: gray solid 1px;
   border-radius: 45px;
+  justify-content: space-evenly;
+  margin: 5vh;
 }
 
+img {
+  width: 200px;
+}
+
+.photoProduit {
+  border: 1px solid transparent;
+  border-radius: 15px;
+  overflow: hidden;
+
+}
 
 .etiquette {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: lightblue;
-  border: gray solid 1px;
-  margin: 3vh;
-  padding: 3vh;
+  border: black solid 1px;
   border-radius: 45px;
+  padding: 5vh;
+  margin: 5vh;
+  align-items: center;
 }
 
-
-img {
-  max-width: 100%;
-}
-
-.photoProduit {
-  width: 200px;
-}
 
 h1 {
   text-align: center;
