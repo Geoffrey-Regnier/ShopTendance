@@ -10,12 +10,12 @@ const Formulaire = () => {
     e.preventDefault();
 
   const postData = {
+      imageUrl: form.current.imageUrl.value,
       title: form.current.title.value,
       description: form.current.description.value,
       categories: form.current.categories.value,
       basePrice: form.current.basePrice.value,
       salePrice: form.current.salePrice.value,
-      imageUrl: form.current.imageUrl.value
     }
     
     await dispatch(addProducts(postData));
