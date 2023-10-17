@@ -93,33 +93,3 @@ font-size: 4vh;
   .description {
     height: 8vh;
   }
-
-  .submitBtn {
-    margin-top: 4vh;
-  }
-
-  .formModif {
-    display: flex;
-    flex-direction: column;
-    color: rgb(189, 34, 34);
-    margin-top: 10vh;
-  }
-
-  .formEtiqu {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .formEtiqu textarea {
-    width: 40%;
-  }
-
-  .formEtiqu input {
-    width: 40%;
-  }
-
-  .formModif button {
-    margin-top: 2vh;
-    width: 40%;
-    font-size: 2vh;
-  }
