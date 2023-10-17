@@ -1,9 +1,39 @@
+/** Style pour App */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  color: #333;
+
+}
+
+.header {
+  text-align: center;
+  background-color: #E9B824;
+  width: 100%;
+  border-bottom: #333 solid 3px;;
+}
+
+h1 {
+  font-size: 10vh;
+}
+
+
+/* Style pour Boutique */
+
 .shop {
   display: flex;
   flex-wrap: wrap;
   border-radius: 45px;
-  justify-content: space-evenly;
-  margin: 5vh;
+  margin: 2vh;
 }
 
 img {
@@ -19,15 +49,52 @@ img {
 
 .etiquette {
   display: flex;
+  justify-content: flex-end;
   flex-direction: column;
-  border: black solid 1px;
+  border: #333 solid 3px;
   border-radius: 45px;
   padding: 5vh;
   margin: 5vh;
   align-items: center;
+  background-color: #EE9322;
 }
 
+.btnContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
 
-h1 {
+.btn {
+  font-size: 2vh;
+  margin: 0;
+}
+
+/* Style pour Formulaire */
+
+.formulaire {
+
+  width: 20vh;
+  position: sticky;
+  border: #333 solid 3px;
+  border-radius: 45px;
+  top: 10px;
+  margin-right: 4vh;
+  margin-top: 4vh;
+  padding: 2vh;
+  background-color: #EE9322;;
+}
+
+h2 {
   text-align: center;
+font-size: 4vh;
 }
+
+  .description {
+    height: 8vh;
+  }
+
+  .submitBtn {
+    margin-top: 4vh;
+  }
+

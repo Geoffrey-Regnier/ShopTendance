@@ -9,8 +9,6 @@ const Formulaire = () => {
   const handleForm = async (e) => {
     e.preventDefault();
 
-    console.log(form)
-
   const postData = {
       title: form.current.title.value,
       description: form.current.description.value,
@@ -27,15 +25,16 @@ const Formulaire = () => {
 
   }
   return (
-    <div>
+    <div className='formulaire'>
       <form ref={form} onSubmit={(e) => handleForm(e)}>
+        <h2>Ajouter un article</h2>
         <div>
           <label htmlFor="title">Titre</label>
           <input type="text" name="title" id="title" />
         </div>
         <div>
           <label htmlFor="description">Description</label>
-          <input type="textarea" name="description" id="description" />
+          <textarea type="textarea" name="description" id="description" className='description' />
         </div>
         <div>
           <label htmlFor="categories">Categories</label>
@@ -53,7 +52,7 @@ const Formulaire = () => {
           <label htmlFor="imageUrl">Image</label>
           <input type="text" name="imageUrl" id="imageUrl" />
         </div>
-        <button type="submit">Envoyer</button>
+        <button type="submit" className='submitBtn'>Envoyer</button>
       </form>
     </div>
   )
@@ -62,5 +61,3 @@ const Formulaire = () => {
 
 
 export default Formulaire
-
-/** le titre, description, categories, prix de base, prix soldé et image */

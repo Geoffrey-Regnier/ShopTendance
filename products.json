@@ -145,12 +145,12 @@
       "imageUrl": "https://img.freepik.com/photos-gratuite/maillot-bain-fond-jaune-isole_1303-13545.jpg?w=1380&t=st=1697105745~exp=1697106345~hmac=ac0dbee6a124ac0f32e039be6d18b8df61a56e1294423f2765d1286da55c21da"
     },
     {
-      "title": "Tshirt",
-      "description": "tshirt bleu",
-      "categories": "haut",
-      "basePrice": "20",
-      "salePrice": "15",
-      "imageUrl": "",
+      "title": "Chemise blanche",
+      "description": "Chemise chic et elegante",
+      "categories": "",
+      "basePrice": "45",
+      "salePrice": "35",
+      "imageUrl": "https://images.unsplash.com/photo-1603252109303-2751441dd157?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80",
       "id": 13
     }
   ]
